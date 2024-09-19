@@ -8,11 +8,13 @@ import {DisplayhelloworldComponent} from "./components/displayhelloworld/display
 import { FormsModule } from "@angular/forms";
 import { ShowbellbuttonComponent } from "./components/showbellbutton/showbellbutton.component";
 import {DisplaynameComponent} from "./components/displayname/displayname.component";
+import {CounterComponent} from "./components/counter/counter.component";
 
 const routes: Routes =[
   {path:'',component: DisplayhelloworldComponent},
   {path:'showbellbutton',component: ShowbellbuttonComponent},
   {path:'displayname',component: DisplaynameComponent},
+  {path:'counter',component: CounterComponent},
 
 ]
 
@@ -30,6 +32,7 @@ const routes: Routes =[
     DisplayhelloworldComponent,
     ShowbellbuttonComponent,
     DisplaynameComponent,
+    CounterComponent,
 
   ],
   providers: [
