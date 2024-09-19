@@ -32,6 +32,7 @@ import {TodomanagerComponent} from "./components/todomanager/todomanager.compone
 import {GuessnumbergameComponent} from "./components/guessnumbergame/guessnumbergame.component";
 import {WordcounterComponent} from "./components/wordcounter/wordcounter.component";
 import {RandomnumbergeneratorComponent} from "./components/randomnumbergenerator/randomnumbergenerator.component";
+import {MultiplicationCheckerComponent} from "./components/multiplicationchecker/multiplicationchecker.component";
 
 const routes: Routes =[
   {path:'',component: DisplayhelloworldComponent},
@@ -61,6 +62,7 @@ const routes: Routes =[
   {path: 'guessnumbergame',component:GuessnumbergameComponent},
   {path: 'wordcounter',component: WordcounterComponent},
   {path: 'randomnumbergenerator',component: RandomnumbergeneratorComponent},
+  {path: 'multiplicationchecker',component: MultiplicationCheckerComponent},
 
 
 ]
@@ -103,6 +105,7 @@ const routes: Routes =[
     GuessnumbergameComponent,
     WordcounterComponent,
     RandomnumbergeneratorComponent,
+    MultiplicationCheckerComponent,
 
 
   ],
