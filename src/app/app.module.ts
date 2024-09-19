@@ -28,6 +28,8 @@ import {PalindromecheckerComponent} from "./components/palindromechecker/palindr
 import {TemperatureconverterComponent} from "./components/temperatureconverter/temperatureconverter.component";
 import {ShoppinglistComponent} from "./components/shoppinglist/shoppinglist.component";
 import {FactorialcalculatorComponent} from "./components/factorialcalculator/factorialcalculator.component";
+import {TodomanagerComponent} from "./components/todomanager/todomanager.component";
+import {GuessnumbergameComponent} from "./components/guessnumbergame/guessnumbergame.component";
 
 const routes: Routes =[
   {path:'',component: DisplayhelloworldComponent},
@@ -53,6 +55,8 @@ const routes: Routes =[
   {path: 'temperatureconverter',component: TemperatureconverterComponent},
   {path: 'shoppinglist',component: ShoppinglistComponent},
   {path: 'factorialcalculator',component: FactorialcalculatorComponent},
+  {path: 'todomanager',component:TodomanagerComponent},
+  {path: 'guessnumbergame',component:GuessnumbergameComponent},
 
 
 ]
@@ -91,6 +95,8 @@ const routes: Routes =[
     TemperatureconverterComponent,
     ShoppinglistComponent,
     FactorialcalculatorComponent,
+    TodomanagerComponent,
+    GuessnumbergameComponent,
 
 
   ],
