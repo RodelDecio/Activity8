@@ -14,6 +14,7 @@ import {UserageComponent} from "./components/userage/userage.component";
 import {UsergreetingComponent} from "./components/usergreeting/usergreeting.component";
 import {CalculatorComponent} from "./components/calculator/calculator.component";
 import {TextlengthComponent} from "./components/textlength/textlength.component";
+import {CurrencyconverterComponent} from "./components/currencyconverter/currencyconverter.component";
 
 const routes: Routes =[
   {path:'',component: DisplayhelloworldComponent},
@@ -24,7 +25,8 @@ const routes: Routes =[
   {path: 'userage', component: UserageComponent},
   {path: 'usergreeting',component: UsergreetingComponent},
   {path: 'calculator',component:CalculatorComponent},
-  {path: 'textlength',component:TextlengthComponent}
+  {path: 'textlength',component:TextlengthComponent},
+  {path: 'currencyconverter',component:CurrencyconverterComponent},
 
 ]
 
@@ -48,6 +50,7 @@ const routes: Routes =[
     UsergreetingComponent,
     CalculatorComponent,
     TextlengthComponent,
+    CurrencyconverterComponent,
 
 
   ],
