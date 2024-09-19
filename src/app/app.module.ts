@@ -22,6 +22,7 @@ import {ShowusernameComponent} from "./components/showusername/showusername.comp
 import {MultiplicationtableComponent} from "./components/multiplicationtable/multiplicationtable.component";
 import {SimpleloginComponent} from "./components/simplelogin/simplelogin.component";
 import {FahrenheittocelsiusComponent} from "./components/fahrenheittocelsius/fahrenheittocelsius.component";
+import {BookmarklistComponent} from "./components/bookmarklist/bookmarklist.component";
 
 const routes: Routes =[
   {path:'',component: DisplayhelloworldComponent},
@@ -41,6 +42,7 @@ const routes: Routes =[
   {path: 'multiplicationtable',component: MultiplicationtableComponent},
   {path: 'simplelogin',component: SimpleloginComponent},
   {path: 'fahrenheittocelsius',component: FahrenheittocelsiusComponent},
+  {path: 'bookmarklist',component: BookmarklistComponent},
 
 
 ]
@@ -73,6 +75,7 @@ const routes: Routes =[
     MultiplicationtableComponent,
     SimpleloginComponent,
     FahrenheittocelsiusComponent,
+    BookmarklistComponent,
 
 
   ],
