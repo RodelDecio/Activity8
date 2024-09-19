@@ -1,6 +1,6 @@
 import {RouterModule, Routes} from "@angular/router";
 import {CommonModule} from "@angular/common";
-import {NgModule} from "@angular/core";
+import {Component, NgModule} from "@angular/core";
 import {BrowserModule} from "@angular/platform-browser";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {AppComponent} from "./app.component";
@@ -38,6 +38,10 @@ import {WordshufflerComponent} from "./components/wordshuffler/wordshuffler.comp
 import {BmisolverComponent} from "./components/bmisolver/bmisolver.component";
 import {UsernameValidatorComponent} from "./components/usernamevalidator/usernamevalidator.component";
 import {InterestcalculatorComponent} from "./components/interestcalculator/interestcalculator.component";
+import {
+  CompoundinterestcalculatorComponent
+} from "./components/compoundinterestcalculator/compoundinterestcalculator.component";
+import {FibonacciGeneratorComponent} from "./components/fibonaccigenerator/fibonaccigenerator.component";
 
 const routes: Routes =[
   {path:'',component: DisplayhelloworldComponent},
@@ -73,6 +77,8 @@ const routes: Routes =[
   {path: 'bmisolver',component: BmisolverComponent},
   {path: 'usernamevalidator',component: UsernameValidatorComponent},
   {path: 'interestcalculator',component: InterestcalculatorComponent},
+  {path: 'compoundinterestcalculator',component: CompoundinterestcalculatorComponent},
+  {path: 'fibonaccigenerator',component: FibonacciGeneratorComponent},
 
 
 ]
@@ -121,6 +127,8 @@ const routes: Routes =[
     BmisolverComponent,
     UsernameValidatorComponent,
     InterestcalculatorComponent,
+    CompoundinterestcalculatorComponent,
+    FibonacciGeneratorComponent,
 
 
   ],
