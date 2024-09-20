@@ -49,6 +49,7 @@ import {UppercasegreetingComponent} from "./components/uppercasegreeting/upperca
 import {DivisiblecheckerComponent} from "./components/divisiblechecker/divisiblechecker.component";
 import {GradeCalculatorComponent} from "./components/gradecalculator/gradecalculator.component";
 import {SpeedConverterComponent} from "./components/speedconverter/speedconverter.component";
+import {ColorChangerComponent} from "./components/colorchanger/colorchanger.component";
 
 const routes: Routes =[
   {path:'',component: DisplayhelloworldComponent},
@@ -93,6 +94,7 @@ const routes: Routes =[
   {path: 'divisiblechecker',component: DivisiblecheckerComponent},
   {path: 'gradecalculator',component: GradeCalculatorComponent},
   {path: 'speedconverter',component: SpeedConverterComponent},
+  {path: 'colorchanger',component: ColorChangerComponent},
 ]
 
 @NgModule({
@@ -148,6 +150,7 @@ const routes: Routes =[
     DivisiblecheckerComponent,
     GradeCalculatorComponent,
     SpeedConverterComponent,
+    ColorChangerComponent,
 
   ],
   providers: [
