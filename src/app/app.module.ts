@@ -56,6 +56,7 @@ import {DiscountCalculatorComponent} from "./components/discountcalculator/disco
 import {LetterReplacerComponent} from "./components/letterreplacer/letterreplacer.component";
 import {SimpleSliderComponent} from "./components/simpleslider/simpleslider.component";
 import {PasswordStrengthCheckerComponent} from "./components/passwordstrengthchecker/passwordstrengthchecker.component";
+import {MemoryMatchGameComponent} from "./components/memorymatchgame/memorymatchgame.component";
 
 const routes: Routes =[
   {path:'',component: DisplayhelloworldComponent},
@@ -107,6 +108,7 @@ const routes: Routes =[
   {path: 'letterreplacer',component: LetterReplacerComponent},
   {path: 'simpleslider',component: SimpleSliderComponent},
   {path: 'passwordstrengthchecker',component: PasswordStrengthCheckerComponent},
+  {path: 'memorymatchgame',component: MemoryMatchGameComponent},
 
 
 ]
@@ -171,6 +173,7 @@ const routes: Routes =[
     LetterReplacerComponent,
     SimpleSliderComponent,
     PasswordStrengthCheckerComponent,
+    MemoryMatchGameComponent,
 
   ],
   providers: [
