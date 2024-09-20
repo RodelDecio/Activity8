@@ -54,6 +54,7 @@ import {LeapYearCheckerComponent} from "./components/leapyearchecker/leapyearche
 import {TemperatureAlertComponent} from "./components/temperaturealert/temperaturealert.component";
 import {DiscountCalculatorComponent} from "./components/discountcalculator/discountcalculator.component";
 import {LetterReplacerComponent} from "./components/letterreplacer/letterreplacer.component";
+import {SimpleSliderComponent} from "./components/simpleslider/simpleslider.component";
 
 const routes: Routes =[
   {path:'',component: DisplayhelloworldComponent},
@@ -103,6 +104,7 @@ const routes: Routes =[
   {path: 'temperaturealert',component:TemperatureAlertComponent},
   {path: 'discountcalculator',component: DiscountCalculatorComponent},
   {path: 'letterreplacer',component: LetterReplacerComponent},
+  {path: 'simpleslider',component: SimpleSliderComponent},
 
 
 ]
@@ -165,6 +167,7 @@ const routes: Routes =[
     TemperatureAlertComponent,
     DiscountCalculatorComponent,
     LetterReplacerComponent,
+    SimpleSliderComponent,
 
   ],
   providers: [
