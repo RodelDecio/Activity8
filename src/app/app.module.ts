@@ -45,6 +45,7 @@ import {FibonacciGeneratorComponent} from "./components/fibonaccigenerator/fibon
 import {OddsumcalculatorComponent} from "./components/oddsumcalculator/oddsumcalculator.component";
 import {CurrencyformatterComponent} from "./components/currencyformatter/currencyformatter.component";
 import {RandomquotedisplayComponent} from "./components/randomquotedisplay/randomquotedisplay.component";
+import {UppercasegreetingComponent} from "./components/uppercasegreeting/uppercasegreeting.component";
 
 const routes: Routes =[
   {path:'',component: DisplayhelloworldComponent},
@@ -85,6 +86,7 @@ const routes: Routes =[
   {path: 'oddsumcalculator',component: OddsumcalculatorComponent},
   {path: 'currencyformatter',component: CurrencyformatterComponent},
   {path: 'randomquotedisplay',component: RandomquotedisplayComponent},
+  {path: 'uppercasegreeting',component:UppercasegreetingComponent},
 ]
 
 @NgModule({
@@ -136,6 +138,7 @@ const routes: Routes =[
     OddsumcalculatorComponent,
     CurrencyformatterComponent,
     RandomquotedisplayComponent,
+    UppercasegreetingComponent,
 
   ],
   providers: [
