@@ -52,6 +52,7 @@ import {SpeedConverterComponent} from "./components/speedconverter/speedconverte
 import {ColorChangerComponent} from "./components/colorchanger/colorchanger.component";
 import {LeapYearCheckerComponent} from "./components/leapyearchecker/leapyearchecker.component";
 import {TemperatureAlertComponent} from "./components/temperaturealert/temperaturealert.component";
+import {DiscountCalculatorComponent} from "./components/discountcalculator/discountcalculator.component";
 
 const routes: Routes =[
   {path:'',component: DisplayhelloworldComponent},
@@ -99,6 +100,7 @@ const routes: Routes =[
   {path: 'colorchanger',component: ColorChangerComponent},
   {path: 'leapyearchecker',component:LeapYearCheckerComponent},
   {path: 'temperaturealert',component:TemperatureAlertComponent},
+  {path: 'discountcalculator',component: DiscountCalculatorComponent},
 
 ]
 
@@ -158,6 +160,7 @@ const routes: Routes =[
     ColorChangerComponent,
     LeapYearCheckerComponent,
     TemperatureAlertComponent,
+    DiscountCalculatorComponent,
 
   ],
   providers: [
