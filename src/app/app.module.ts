@@ -55,6 +55,7 @@ import {TemperatureAlertComponent} from "./components/temperaturealert/temperatu
 import {DiscountCalculatorComponent} from "./components/discountcalculator/discountcalculator.component";
 import {LetterReplacerComponent} from "./components/letterreplacer/letterreplacer.component";
 import {SimpleSliderComponent} from "./components/simpleslider/simpleslider.component";
+import {PasswordStrengthCheckerComponent} from "./components/passwordstrengthchecker/passwordstrengthchecker.component";
 
 const routes: Routes =[
   {path:'',component: DisplayhelloworldComponent},
@@ -105,6 +106,7 @@ const routes: Routes =[
   {path: 'discountcalculator',component: DiscountCalculatorComponent},
   {path: 'letterreplacer',component: LetterReplacerComponent},
   {path: 'simpleslider',component: SimpleSliderComponent},
+  {path: 'passwordstrengthchecker',component: PasswordStrengthCheckerComponent},
 
 
 ]
@@ -168,6 +170,7 @@ const routes: Routes =[
     DiscountCalculatorComponent,
     LetterReplacerComponent,
     SimpleSliderComponent,
+    PasswordStrengthCheckerComponent,
 
   ],
   providers: [
