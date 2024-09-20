@@ -50,6 +50,7 @@ import {DivisiblecheckerComponent} from "./components/divisiblechecker/divisible
 import {GradeCalculatorComponent} from "./components/gradecalculator/gradecalculator.component";
 import {SpeedConverterComponent} from "./components/speedconverter/speedconverter.component";
 import {ColorChangerComponent} from "./components/colorchanger/colorchanger.component";
+import {LeapYearCheckerComponent} from "./components/leapyearchecker/leapyearchecker.component";
 
 const routes: Routes =[
   {path:'',component: DisplayhelloworldComponent},
@@ -95,6 +96,8 @@ const routes: Routes =[
   {path: 'gradecalculator',component: GradeCalculatorComponent},
   {path: 'speedconverter',component: SpeedConverterComponent},
   {path: 'colorchanger',component: ColorChangerComponent},
+  {path: 'leapyearchecker',component:LeapYearCheckerComponent},
+
 ]
 
 @NgModule({
@@ -151,6 +154,7 @@ const routes: Routes =[
     GradeCalculatorComponent,
     SpeedConverterComponent,
     ColorChangerComponent,
+    LeapYearCheckerComponent,
 
   ],
   providers: [
