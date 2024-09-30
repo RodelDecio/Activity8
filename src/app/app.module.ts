@@ -111,6 +111,7 @@ const routes: Routes =[
   {path: 'memorymatchgame',component: MemoryMatchGameComponent},
 
 
+
 ]
 
 @NgModule({
